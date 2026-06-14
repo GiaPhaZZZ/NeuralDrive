@@ -1,6 +1,6 @@
-# NeuralDrive
 
 # ⚡ NEURAL DRIVE v1.0
+
 > **Expanding human automation and cognitive physical augmentation via real-time EEG-BCI classification.**
 
 **Neural Drive** is an open-source Brain-Computer Interface (BCI) framework designed to close the gap between human thought and mechanical execution. By intercepting raw microvolt electroencephalography (EEG) signals, the system leverages a classification pipeline to decode distinct neural signatures directly into physical motor actions—effectively allowing an individual to control machinery with nothing but a thought.
