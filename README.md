@@ -1,8 +1,10 @@
-# ⚡ NEURAL DRIVE v1.0
+# 🤖 NEURAL DRIVE ⚡
 
 > **Expanding human automation and cognitive physical augmentation via real-time EEG-BCI classification.**
 
-**Neural Drive** is an open-source Brain-Computer Interface (BCI) framework designed to close the gap between human thought and mechanical execution. By intercepting raw microvolt electroencephalography (EEG) signals, the system leverages a classification pipeline to decode distinct neural signatures directly into physical motor actions — effectively allowing an individual to control machinery with nothing but a thought.
+**Neural Drive** is an open-source Brain-Computer Interface (BCI) framework designed to close the gap between human biopotentials and mechanical execution. By intercepting raw microvolt signals via electrodes positioned over the frontal lobe, the platform captures neuro-electrical (EEG) signatures. The system processes these inputs through a lightweight convolutional neural network pipeline, decoding user intent directly into real-time command protocols to remote-control an unmanned ground vehicle (UGV).
+
+The initial implementation demonstrates real-time directional manipulation of a scale-model robotic chassis using nothing but facial muscle activations and targeted cognitive states.
 
 The long-term vision of Neural Drive is to democratize human-robot automation. Imagine a world where human intent is seamlessly mirrored by AI-driven robotics, laying the foundation for advanced cybernetic assistance, physical rehabilitation, and the next frontier of deep-space cosmic exploration.
 
@@ -10,7 +12,7 @@ The long-term vision of Neural Drive is to democratize human-robot automation. I
 
 ---
 
-## 🏎️ Command Matrix & Vehicle Actuation
+## Command Matrix & Vehicle Actuation
 
 The current classification model distinguishes between **four neural command vectors**, each mapped to a motor action on the remote vehicle:
 
@@ -25,9 +27,9 @@ The right-hand column (`short` / `long` / `extra` / `back`) is the literal strin
 
 ## 🌌 Core Pillars & Mission Objectives
 
-* 🧠 **Cognitive Automation:** Removing the friction of manual interfaces. You think, and the AI-robot ecosystem handles the physical work.
-* 🦾 **Augmenting Human Capability:** Elevating human physical limits through non-invasive neuro-technology, paving the way for tools built for extreme environments and cosmic exploration.
-* 🚀 **High-Throughput Telemetry:** Built on top of a specialized 10 kHz stream-ingestion pipeline to ensure near-zero latency from synapse to hardware action.
+* **Cognitive Automation:** Removing the friction of manual interfaces. You think, and the AI-robot ecosystem handles the physical work.
+* **Augmenting Human Capability:** Elevating human physical limits through non-invasive neuro-technology, paving the way for tools built for extreme environments and cosmic exploration.
+* **High-Throughput Telemetry:** Built on top of a specialized 10 kHz stream-ingestion pipeline to ensure near-zero latency from synapse to hardware action.
 
 ---
 
